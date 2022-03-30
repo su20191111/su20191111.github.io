@@ -2,12 +2,11 @@
 <html>
 <head>
 <meta charset="utf-8"/>
-<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>html 앵커 실습 </title></head>
 <body>
 <h3 id="chapter1">제1장</h3>
-<p>제 1장입니다. 제 1장은 다음을 정의합니다.
-</p>
+<p>제 1장입니다. 제 1장은 다음을 정의합니다.</p>
 <p>다음</p>
 <a href="http://www.google.com" target="_blank">구글이동(새윈도우)</a><br/>
 <a href="anchor2.html">사이트내 문서 이동</a><br/>
@@ -22,9 +21,17 @@ HTML과 같은 하이퍼미디어에서는, 노드는 HTML문서, 멀티미디�
 </p>
 <h3 id="chapter3">제3장</h3>
 <p>제 3장입니다. 제 3장은 무엇을 정의합니다</p>
+<ul>
+<li><a href="http://www.naver.com" target="_blank">네이버(새윈도우)</a></li>
+<li><a href="anchor2.html">사이트내 문서 이동</a><br/></li>
+<li><a href="#chapter1">제1장이동(북마크 이동)</a><br/></li></ul>
+
+<table>
+<tr> <th>이동주소</th><th>사이트명</th><th>설명</th></tr>
+<tr> <td>구글</td><td><a href="http://www.naver.com">네이버</a></td><td>네이버</td></tr>
+<tr> <td>사이트다른문서</td><td><a href="anchor2.html">anchor2.html로 이동</a></td><td>anchor2</td></tr>
+<tr> <td>제1장</td><td><a href="#chapter1">제1장이동(북마크이동)</a></td><td>제1장</td></tr>
+</table>
+
 </body>
-
-
-
-
 </html>
