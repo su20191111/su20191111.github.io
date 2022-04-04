@@ -1,0 +1,82 @@
+<!doctype html>    <!-- index.html-->
+<html><head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title> 개인 과제 리스트 </title>
+<style>
+a:link {color:blue;text-decoration:none;}a:visited { color:purple; text-decoration:none;}
+a:hover { text-decoration:underline;} a:active {color:red; text-decoration:none;}
+</style> 
+ </head>
+<body>
+<h1>홍수경 과제리스트 </h1>
+<ul> <hr/>
+
+<li> 1주차 </li>
+<ol>
+ <li><a href="https://su20191111.github.io/html5/basicHtml.html"> Eclipse 초기실행(hw1_1_1.html)</a></li>
+
+
+</ol><hr/>
+<li> 2주차 </li>
+<ol>
+<li>실습 <a href="https://su20191111.github.io/1/def.html"> 공공데이터포털(GongGong.html)</a></li>
+<li>실습 <a href="https://su20191111.github.io/1/koreaAnthem3.html"> 애국가 (eventonclick.html)</a></li>
+<li>과제 <a href="https://su20191111.github.io/1/koreaAnthem.html"> 애국가 숙제(koreAnthem.html)</a></li>
+ 
+
+ 
+</ol><hr/>
+<li> 3주차 </li>
+<ol>
+ <li>실습<a href="https://su20191111.github.io/2/basicHeading.html"> 헤딩 크기(h123456.html)</a></li>
+ <li>실습<a href="https://su20191111.github.io/2/basicPBHr.html"> 요소 (hrbr.html)</a></li>
+ <li>실습<a href="https://su20191111.github.io/2/basicChar.html"> 글자(char.html)</a></li>
+ <li>실습<a href="https://su20191111.github.io/2/koeraAnthem4.html"> 애국가(Korea4.html)</a></li>
+</ol><hr/>
+ 
+<li> 4주차 </li>
+<ol>
+ <li>실습 <a href="https://su20191111.github.io/4/List/basicDList13.html"> 리스트 예제 (BrowserList.html)</a></li>
+ <li>실습 <a href="https://su20191111.github.io/4/List/basicList.html"> 기술 리스트 예제(TypeABCList.html)</a></li>
+ <li>과제 <a href="https://su20191111.github.io/4/List/koreaAnthem5.html"> 애국가 후렴 하단 버전 (ID_Classic.html)</a></li>
+ <li>과제 <a href="https://su20191111.github.io/4/List/koreaAnthem6.html"> 애국가 후렴 줄 아래 버전 (ID_Party.html)</a></li>
+ 
+ <li>실습 <a href="https://su20191111.github.io/4/Table/basicTable1.html"> 테이블기본 (BasicTable.html)</a></li>
+ <li>실습 <a href="https://su20191111.github.io/4/Table/tableSpan.html"> 테이블기본2 (DataTable.html)</a></li>
+ <li>실습 <a href="https://su20191111.github.io/4/Table/advTable.html"> 한국대도시정보현황 (KoreaTable.html)</a></li>
+ <li>과제 <a href="https://su20191111.github.io/4/Table/advTable1.html"> 위경도 (LogitudeTable.html)</a></li>
+ <li>과제 <a href="https://su20191111.github.io/4/Table/tableHw.html"> 칸사이간격 (NocollapseTable.html)</a></li>
+ <li>과제 <a href="https://su20191111.github.io/4/Table/subjectTable1(2).html"> 학교시간표 (Timetable.html)</a></li> 
+ 
+ <li>실습 <a href="https://su20191111.github.io/4/basicDiv.html">분할된 공간12(Div12.html)</a></li> 
+ <li>실습 <a href="https://su20191111.github.io/4/advDiv.html">분할된 공간 123(Div123.html)</a></li> 
+ <li>실습 <a href="https://su20191111.github.io/4/basicSemantic.html"> 시맨틱 학습(semantic.html)</a></li> 
+ <li>실습 <a href="https://su20191111.github.io/4/basicModel.html">시맨틱 스타일제거(Nostyle.html)</a></li> 
+ <li>실습 <a href="https://su20191111.github.io/4/divSpan.html">DivSpan1(DivSpan1.html)</a></li> 
+ <li>실습<a href="https://su20191111.github.io/4/basicPDivSpan.html">DivSpan2(DivSpan2.html)</a></li> 
+ 
+</ol><hr/>
+ 
+ <li> 5주차 </li>
+<ol>
+<li>실습 <a href="https://su20191111.github.io/5/anchor1.html"> 앵커1(anchor1.html)</a></li> 
+<li>실습 <a href="https://su20191111.github.io/5/advAnchor.html"> 앵커2(advAnchor.html)</a></li> 
+<li>실습 <a href="su20191111.github.io/5/basicSemantic1.html"> 앵커1(basicSemantic.html)</a></li> 
+ 
+ <li>실습 <a href="su20191111.github.io/5/image/basicImage.html"> 이미지기초1(basicImage.html)</a></li> 
+ <li>실습 <a href="su20191111.github.io/5/image/basicSemantic2.html">이미지기초2(basicSemantic2.html)</a></li> 
+ <li>실습 <a href="su20191111.github.io/5/image/ismap.html"> ismap (serversidemap.html)</a></li> 
+ 
+ <li>실습 <a href="su20191111.github.io/5/Map/imageMap.html"> 한국이미지맵(imageMap.html)</a></li> 
+ <li>과제 <a href="su20191111.github.io/5/Map/world/worldmap.html">세계지도(worldmap.html)</a></li> 
+<!--대전대, 세계지도 숙제 있음-->
+ <li>실습 <a href=" su20191111.github.io/5/audio/basicAudio.html"> 오디오기초(BasicAudio.html)</a></li> 
+ <li>실습 <a href="su20191111.github.io/5/Video/basicVideo.html "> 비디오기초(Basicvideo.html)</a></li> 
+ <li>실습 <a href="su20191111.github.io/5/Video/basicSemantic3.html"> 비디오시맨틱3(basicSemantic.html)</a></li> 
+ <li>실습 <a href="su20191111.github.io/5/Video/anchor2.html"> 비디오 변형(anchor2.html)</a></li> 
+ 
+</ol><hr/>
+ 
+</ul>
+</body></html>
