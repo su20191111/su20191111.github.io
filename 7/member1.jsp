@@ -20,7 +20,7 @@ sName +" '/>");%></div>
         <label id="id21" class="class2" for="id22">학번</label> 
 <%= request.getParameter("sNumber")%></div>
       <div id="div3"> 
-        <label id="id31" for="id32">LI F</label>
+        <label id="id31" for="id32">전화</label>
 <%= request.getParameter("sPhone")%></div> 
       <div id="div4">
 <footer><p>&copy; 20XX Made by Korea. All rights reserved.</p></footer></body></html>
