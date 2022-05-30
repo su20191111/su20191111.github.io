@@ -1,57 +1,104 @@
-<!doctype html> <!-- rwd2.html -->
-<html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
-<style> * { box-sizing:border-box; padding:0; margin:0; } .row::after { content:""; clear:both; display:table; }
-.col-1{ width:8,33%;} .col-2{width:16.66%;} .col-3{width:25%;} .col-4{ width:33.33%;}
-.col-5{width:41.66%:;} .col-6{width:50%;} .col-7{ width:58.33%;} .col-8{width:66.66%;}
-.col-9{width:75%;} .col-10{ width:83.33%;} .col-11 {width:91.66%;} .col-12{width:100%;}
-[class*="col-"] { float:left; padding:10px;} .header, .footer{ background-color:lightgray; color:blue; padding: 10px;}
-.menu ul, .banner ul { list-style-type:none; }
-.menu li { background-color:pink; color:black; padding: 10px; margin-bottom: 10px; box-shadow:0 1px 3px gray;}
-.menu li:hover{background-color:red;}
-.banner li {border:2px solid black; padding: 10px; margin-bottom: 10px; box-shadow:0 1px 3px gray;}
-.banner li img {width:30%; vertical-align:middle;} 
-@media only screen and (max-width: 786px) {[class*="col-"] {width:100% } }
-  
-  table, thead, thbody, tdfoot, tr, th, td {
-  border: 2px solid black; border-collapse:collapse;text-align:center;
-}
-.subject1{ background-color:lightgray; } .subject2{ background-color:#FAF4C0;} .subject3{ background-color:#B2CCFF;}
-.subject4{ background-color:#D1B2FF; } .subject5{ background-color:#CEF279;} .subject6{ background-color:#FFB2F5;}
-th, td{ width:50px; }
+<!DOCTYPE html> <!-- basicSemantic3.html-->
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<style>
+header, nav, section, article, aside, footer
+{border:1px solid gray; margin:5px; padding:8px; width:1000px;}
+header img { width:990px; height:200px;}
+  section{width:750px; float:left;}
+section section {width:725px; float:left;}
+aside {width:221px; float:left; line-height:30px;}
+footer{height:50px; clear:both;}
 
-  
-</style><title>인터넷응용 포트폴리오</title></head>
+nav ul{margin:0; padding:0;}
+nav ul li {display:inline; margin: 5px;}
+aside ul{margin:0; padding:0;}
+aside ul li {display: block; margin: 5px;}
+aside ul li img { width:50px; height: 200px;}
+
+a:link { color:blue; background-color:transparent; text-decoration:none;}
+a:visited { color:pink; background-color:transparent; text-decoration:none;}
+a:hover { color:red; background-color:transparent; text-decoration:underline;}
+a:active { color:blue; background-color:transparent; text-decoration:none;}
+
+
+
+
+
+</style>
+<title>인터넷응용 포트폴리오</title></head>
+
 <body>
-<header class="header"><h2>한국의 도시</h2></header>
-<div class="row"></div>
-<div id="main">
-<nav class="col-3 menu"> <!-- 메뉴 -->
-<ul><li>서울</li><li>대전</li><li>대구</li><li>부산</li></ul></nav>
-<section class="col-6">
+<header>
+  <h2>인터넷응용 포트폴리오</h2>
+  <img src="헤더.png"/>
+</header>
+<nav>
+  <ul>
+<li> <img src="깃발.png"/><a href="https://blog.naver.com/pper5621" target="_blank">블로그</a></li>
+<li><img src="깃발.png"/><a href="anchor2.html">사이트내 문서 이동</a></li>
+<li><img src="깃발.png"/><a href="#chapter1">제1장이동(북마크 이동)</a></li></ul>
+</nav>
+
+<section> <!--main-->
+<section><a href="anchor2.html"><h3 id="chapter1">
+</h3></a>
+<p> 오늘의 교통상황을 비디오로 제공합니다. 
+장소는 대한민국 만세로 입니다. 많은 자동차들로 붐비고 있습니다. 
+  자동차와 자동차간 거리가 1미터 이내로 사고 우려가 높았습니다. 
+  하지만, 다행이도 사고는 발생하지 않았습니다. 아래가 교통상황입니다.</p>
   
-  <--본문애용-->
-<h3>대전광역시</h3><p>우리나라 중앙에 위치한 150만.......</p>
   
-  <--시간표-->
-  <p> <table>
-<caption>&lt;3학년 1학기 시간표1&gt;</caption>
-<thead>      
-<tr><th>시간</th>  <th>월</th>  <th>화</th>  <th>수</th>  <th>목</th>  <th>금</th>   </tr>  
-</thead>
-<tbody>      
-<tr><td>1교시</td> <td></td><td rowspan="2" class="subject1">DB</td><td rowspan="2" class="subject2">자료 구조</td><td rowspan="3" class="subject3">국제물류영어회화3</td><td></td>  </tr>
-<tr><td>2교시</td> <td></td><td></td> </tr>
-<tr><td>3교시</td> <td></td><td rowspan="2" class="subject2">자료 구조</td><td rowspan="1" class="subject1">DB</td><td></td> </tr>
-<tr><td>4교시</td> <td></td><td></td><td></td><td rowspan="3" class="subject4">무역 영어 </td>  </tr>
-<tr><td>5교시</td> <td></td><td></td><td></td><td></td>  </tr>
-<tr><td>6교시</td> <td></td><td rowspan="4" class="subject5">C++</td><td></td><td></td>  </tr>
-<tr><td>7교시</td> <td></td><td rowspan="3" class="subject6">인터넷응용</td><td></td><td></td> </tr>
-<tr><td>8교시</td> <td></td><td></td><td></td>  </tr>
-<tr><td>9교시</td> <td></td><td></td><td></td>  </tr>
- </tbody>
-</table></p></section>
+<h4>&lt;3학년 1학기 시간표&gt;</h4>
+<!--시간표-->
+  <img src="시간표.png" />
+
+ <p>
+ 3학년 2학기에는 알고리즘, 모바일 프로그래밍, 운영체제를 수강할 예정입니다. 방학에는 드림위드나 Mooc 활동을 통하여 파이썬이나 코틀린을 공부할 계획을 세웠지만 수정될 수 있습니다.
+ </p>
+ 
+<h4> 비디오 태그 1 320*200</h4>
+
+</section>
+
+
+
+
+
+<section><h3 id="chapter2"><img src="얼음.png"/>자격증, 공모전</h3>
+<p>제 2장입니다. 제 2장은 무엇을 정의합니다</p>
+<p>
+HTML과 같은 하이퍼미디어에서는, 노드는 HTML문서, 멀티미디어 정보를 표현하는 기본단위이고, 링크는 노드간을 연결하며, 앵커는 링크의 출발점 또는 도착점을 의미합니다.</p>
+<p>
+제 1장에서 공부한 내용이 궁금하다면 다음을 <a href="#chapter1">클릭</a>하세요</p></section>
   
-<aside class="col-3 banner">
-<ul><li><img src="flag.png">한국</li><li><img src="flag.png"/>Korea</li></ul></aside>
-</div><div class="row"></div>
-<footer class="footer"><h4>Copyright 20XX Korea.</h4></footer></body></html>
+  <section><h3 id="chapter3"><img src="얼음.png"/>제3장</h3>
+<p>제 3장입니다. 제 3장은 무엇을 정의합니다</p>
+<table>
+<tr> <th>이동주소</th><th>사이트명</th><th>설명</th></tr>
+<tr> <td>구글</td><td><a href="http://www.naver.com">네이버</a></td><td>네이버</td></tr>
+<tr> <td>사이트다른문서</td><td><a href="anchor2.html">anchor2.html로 이동</a></td><td>anchor2</td></tr>
+<tr> <td>제1장</td><td><a href="#chapter1">제1장이동(북마크이동)</a></td><td>제1장</td></tr></table>
+  </section>
+  
+</section> <!-- /main-->
+  <section><h3 id="chapter3"><img src="얼음.png"/>제3장</h3>
+<p>제 3장입니다. 제 3장은 무엇을 정의합니다</p>
+<table>
+<tr> <th>이동주소</th><th>사이트명</th><th>설명</th></tr>
+<tr> <td>구글</td><td><a href="http://www.naver.com">네이버</a></td><td>네이버</td></tr>
+<tr> <td>사이트다른문서</td><td><a href="anchor2.html">anchor2.html로 이동</a></td><td>anchor2</td></tr>
+<tr> <td>제1장</td><td><a href="#chapter1">제1장이동(북마크이동)</a></td><td>제1장</td></tr></table>
+  </section>
+</section> 
+
+
+<footer>
+  <p>
+  &copy;20XX Made by korea. All rights reserved.
+  </p>
+</footer>
+</body>
+</html>
