@@ -23,6 +23,12 @@ a:visited { color:pink; background-color:transparent; text-decoration:none;}
 a:hover { color:red; background-color:transparent; text-decoration:underline;}
 a:active { color:blue; background-color:transparent; text-decoration:none;}
 
+* { box-sizing:border-box; padding:0; margin:0; } .row::after { content:""; clear:both; display:table; }
+.col-1{ width:8,33%;} .col-2{width:16.66%;} .col-3{width:25%;} .col-4{ width:33.33%;}
+.col-5{width:41.66%:;} .col-6{width:50%;} .col-7{ width:58.33%;} .col-8{width:66.66%;}
+.col-9{width:75%;} .col-10{ width:83.33%;} .col-11 {width:91.66%;} .col-12{width:100%;}
+[class*="col-"] { float:left; padding:10px;} .header, .footer{ background-color:lightgray; color:blue; padding: 10px;}
+
 
 
 
@@ -31,10 +37,11 @@ a:active { color:blue; background-color:transparent; text-decoration:none;}
 <title>인터넷응용 포트폴리오</title></head>
 
 <body>
-<header>
+<header class="header">
   <h2>인터넷응용 포트폴리오</h2>
 
 </header>
+  <div class="row"></div>
 <nav>
   <ul>
 <li> <img src="작은깃발.png"/><a href="https://blog.naver.com/pper5621" target="_blank">블로그</a></li>
@@ -115,7 +122,8 @@ a:active { color:blue; background-color:transparent; text-decoration:none;}
 </section> 
 
 
-<footer>
+
+<footer class="footer">
   <p>
   &copy;20XX Made by korea. All rights reserved.
   </p>
